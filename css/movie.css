@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    margin-left: 300px;
+    margin-right: auto;
+    color: deepskyblue;
+    font-size: 30px;
+}
+
+.movie{
+    display:flex;
+    justify-content: space-around
+}
+img {
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+}
+
+.movie.informations {
+    background-color: rgba(0, 255, 255, 0.1);
+    padding: 20px;
+    height: 367px;
+    width: 300px;
+    flex-direction: column;
+}
+
+.movie.informations p{
+    margin-top: -10px;
+}
+
+.plot {
+    height: 125px;
+    overflow: scroll;
+    border-top: 1px dashed black;
+}
+
+
+.cast {
+   padding: 10px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16em;
+    border: 3px solid gold;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+.cast img{
+    height: 10em;
+    width: 10em;
+    padding: 6px;
+}
+
+.cast h2 {
+    text-align: center;
+    margin: 10px -10px;
+}
+
+.reviews {
+    border-top: 5px solid dodgerblue;
+    
+}
+.reviews h3{
+    color: darkred;
+    font-style: italic;
+}
+
