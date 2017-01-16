@@ -5,7 +5,7 @@
 }
 
 body {
-    background:transparent url(../images/theater-551797.png) center center/cover no-repeat no-repeat fixed;
+    background: transparent url(../images/theater-551797.png) center center/cover no-repeat no-repeat fixed;
     margin-left: auto;
     margin-right: auto;
     max-width: 1000px;
@@ -19,12 +19,12 @@ h1 {
     font-size: 30px;
 }
 
-h2{
+h2 {
     font-style: italic;
     color: lightskyblue;
 }
 
-h3{
+h3 {
     color: lightgoldenrodyellow;
 }
 
@@ -34,7 +34,7 @@ img {
     padding: 10px;
 }
 
-.logo img{
+.logo img {
     width: 200px;
     height: 75px;
     padding: 5px;
@@ -44,26 +44,27 @@ img {
 
 /*CSS for homepage*/
 
-.header{
+.header {
     font-size: 40px;
     height: 60px;
     text-align: center;
     background: transparent url(../images/movie.svg) center center/200px 100px no-repeat no-repeat scroll;
 }
 
-.header a{
+.header a {
     text-decoration: none;
-    color:dodgerblue;
+    color: dodgerblue;
     font-weight: bold;
 }
+
 .recent.news {
     background-color: rgba(0, 255, 255, 0.1);
 }
 
-.hottest{
+.hottest {
     display: flex;
     justify-content: space-around;
-    text-align:center;
+    text-align: center;
 }
 
 .hottest.movie {
@@ -84,17 +85,17 @@ img {
     background-color: rgba(255, 0, 0, 0.3);
 }
 
-.hottest img{
+.hottest img {
     height: 10em;
     width: 10em;
     padding: 6px;
-    
 }
+
 
 /*CSSfor movie page*/
 
-.movie{
-    display:flex;
+.movie {
+    display: flex;
     justify-content: space-around
 }
 
@@ -106,7 +107,7 @@ img {
     background-color: rgba(0, 0, 0, 0.5)
 }
 
-.movie.informations p{
+.movie.informations p {
     margin-top: -10px;
 }
 
@@ -117,9 +118,8 @@ img {
     padding: 1em;
 }
 
-
 .cast {
-   padding: 10px;
+    padding: 10px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -128,7 +128,8 @@ img {
     margin-top: 2em;
     margin-bottom: 5em;
 }
-.cast img{
+
+.cast img {
     height: 10em;
     width: 10em;
     padding: 6px;
@@ -141,19 +142,24 @@ img {
 
 .reviews {
     border-top: 5px solid dodgerblue;
-    
 }
-.reviews h3{
+
+.reviews h3 {
     color: palegoldenrod;
     font-style: italic;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
-background: rgb(125,126,125); /* Old browsers */
-background: -moz-linear-gradient(left,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 */
-
+    background: rgb(125, 126, 125);
+    /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(125, 126, 125, 1) 0%, rgba(14, 14, 14, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(125, 126, 125, 1) 0%, rgba(14, 14, 14, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(125, 126, 125, 1) 0%, rgba(14, 14, 14, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e', GradientType=1);
+    /* IE6-9 */
 }
+
 
 /*CSS for actor page*/
 
@@ -163,23 +169,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', end
     padding: 1em;
 }
 
-.biography{
+.biography {
     height: 175px;
     overflow: scroll;
     border-top: 1px dashed black;
 }
 
-.actor{
-    display:flex;
+.actor {
+    display: flex;
     justify-content: space-around;
-    text-align:center;
+    text-align: center;
 }
 
-.actor.informations{
+.actor.informations {
     flex-direction: column;
 }
 
-.filmography{
+.filmography {
     width: auto;
     margin-top: 3em;
     border: 1px solid palegoldenrod;
@@ -189,7 +195,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', end
     overflow: scroll;
 }
 
-.filmography img{
+.filmography img {
     height: 10em;
     width: 10em;
     padding: 6px;
@@ -197,16 +203,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', end
     flex-wrap: wrap;
 }
 
-.filmography ol{
+.filmography ol {
     display: flex;
 }
 
-.filmography li{
+.filmography li {
     margin-left: 4em;
 }
 
-.filmography h2{
+.filmography h2 {
     margin-left: auto;
     margin-right: auto;
 }
-
